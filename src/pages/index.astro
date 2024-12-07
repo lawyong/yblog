@@ -38,7 +38,7 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     </section>
     <Hr />
 
-    {
+    <!-- {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
@@ -56,25 +56,41 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           {recentPosts.length > 0 && <Hr />}
         </>
       )
-    }
+    } -->
 
     {
       recentPosts.length > 0 && (
-        <section id="recent-posts">
-          <h2>最新文章</h2>
-          <ul>
-            {recentPosts.map(
-              ({ data, slug }, index) =>
-                index < 4 && (
-                  <Card
-                    href={`/posts/${slug}/`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
-                )
-            )}
-          </ul>
-        </section>
+        <div class="flex gap-8 justify-center max-w-4xl mx-auto">
+          <section id="recent-posts" class="w-1/2">
+            <h2>最新文章</h2>
+            <ul>
+              {recentPosts.map(
+                ({ data, slug }, index) =>
+                  index < 4 && (
+                    <Card
+                      href={`/posts/${slug}/`}
+                      frontmatter={data}
+                      secHeading={false}
+                    />
+                  )
+              )}
+            </ul>
+          </section>
+          <div class="w-px bg-skin-line"></div>
+          
+          <section id="featured" class="w-1/2">
+            <h2>精选</h2>
+            <ul>
+              {featuredPosts.map(({ data, slug }) => (
+                <Card
+                  href={`/posts/${slug}/`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </ul>
+          </section>
+        </div>
       )
     }
 
