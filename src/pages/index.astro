@@ -26,17 +26,16 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       <div>
         <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
       </div>
-      <h1>与君行
-</h1>
-      
-  
-
-      <p>
-        托君，君当弘毅，任重而道远；道远，道远且艰，君愿与君行。
-      </p>
-     
+      <div>
+        <!-- <h2>《热爱生命》</h2> -->
+        <p class="text-center italic">
+          我不去想是否能够成功，<br/>
+          既然选择了远方，<br/>
+          便只顾风雨兼程。<br/>
+          <span class="text-sm text-right block mt-2">—— 汪国真《热爱生命》</span>
+        </p>
+      </div>
     </section>
-
     <Hr />
 
     {
@@ -131,3 +130,25 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     @apply my-8 text-center;
   }
 </style>
+<style>
+  /* ===== Hero Section Layout ===== */
+  #hero {
+    @apply flex flex-col sm:flex-row items-center justify-between gap-8;
+  }
+  #hero div:first-child {
+    @apply w-full sm:w-1/2;
+  }
+  #hero div:last-child {
+    @apply w-full sm:w-1/2;
+  }
+  #hero img {
+    @apply w-full max-w-md mx-auto;
+  }
+  #hero h2 {
+    @apply text-3xl font-bold mb-4;
+  }
+  #hero p {
+    @apply text-lg leading-relaxed;
+  }
+</style>
+
