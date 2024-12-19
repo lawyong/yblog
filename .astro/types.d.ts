@@ -154,6 +154,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"法律实务/劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md": {
+	id: "法律实务/劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md";
+  slug: "劳动合同解除的六种情形";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "法律实务/婚姻家事/婚姻与家庭领域相关法律问题汇总.md": {
 	id: "法律实务/婚姻家事/婚姻与家庭领域相关法律问题汇总.md";
   slug: "婚姻与家庭领域相关法律问题汇总";
