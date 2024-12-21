@@ -126,6 +126,13 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"工具/Typora 的 Markdown 语法.md": {
+	id: "工具/Typora 的 Markdown 语法.md";
+  slug: "typora 的 markdown语法";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "干货分享/一些干货分享.md": {
 	id: "干货分享/一些干货分享.md";
   slug: "一些干货";
@@ -154,8 +161,15 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"法律实务/劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md": {
-	id: "法律实务/劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md";
+"收藏/一点点碎碎念.md": {
+	id: "收藏/一点点碎碎念.md";
+  slug: "收藏/一点点碎碎念";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"法律实务/04劳动工伤/00劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md": {
+	id: "法律实务/04劳动工伤/00劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md";
   slug: "劳动合同解除的六种情形";
   body: string;
   collection: "blog";

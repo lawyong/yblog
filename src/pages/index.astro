@@ -31,13 +31,13 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         <p class="text-center italic">
           我不去想是否能够成功，<br/>
           既然选择了远方，<br/>
-          便只顾风雨兼程。<br/>
+          &nbsp; &nbsp; 便只顾风雨兼程。<br/>
           <span class="text-sm text-right block mt-2">—— 汪国真《热爱生命》</span>
       </div>
     </section>
     <Hr />
 
-    <!-- {
+    {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
@@ -55,41 +55,25 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
           {recentPosts.length > 0 && <Hr />}
         </>
       )
-    } -->
+    }
 
     {
       recentPosts.length > 0 && (
-        <div class="flex gap-8 justify-center gap-y-12 sm:gap-y-6 max-w-4xl mx-auto">
-          <section id="recent-posts" class="w-1/2">
-            <h2 style="font-size: 20px;">最新文章</h2>
-            <ul>
-              {recentPosts.map(
-                ({ data, slug }, index) =>
-                  index < 4 && (
-                    <Card
-                      href={`/posts/${slug}/`}
-                      frontmatter={data}
-                      secHeading={false}
-                    />
-                  )
-              )}
-            </ul>
-          </section>
-          <div class="w-px bg-skin-line"></div>
-          
-          {/* <section id="featured" class="w-1/2">
-            <h2 style="font-size: 20px;">精选</h2>
-            <ul>
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section> */}
-        </div>
+        <section id="recent-posts">
+          <h2>最新文章</h2>
+          <ul>
+            {recentPosts.map(
+              ({ data, slug }, index) =>
+                index < 4 && (
+                  <Card
+                    href={`/posts/${slug}/`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                )
+            )}
+          </ul>
+        </section>
       )
     }
 
@@ -107,6 +91,45 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
 
   <Footer />
 </Layout>
+
+<!-- <style>
+  /* ===== Hero Section ===== */
+  #hero {
+    @apply pb-6 pt-8;
+  }
+  #hero h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+  #hero .rss-link {
+    @apply mb-6;
+  }
+  #hero .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+  #hero p {
+    @apply my-2;
+  }
+  .social-wrapper {
+    @apply mt-4 flex flex-col sm:flex-row sm:items-center;
+  }
+  .social-links {
+    @apply mb-1 mr-2 whitespace-nowrap sm:mb-0;
+  }
+
+  /* ===== Featured & Recent Posts Sections ===== */
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+  #featured h2,
+  #recent-posts h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+  .all-posts-btn-wrapper {
+    @apply my-8 text-center;
+  }
+</style> -->
+
 
 <style>
   /* ===== Hero Section ===== */
@@ -166,4 +189,3 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
     @apply text-lg leading-relaxed;
   }
 </style>
-

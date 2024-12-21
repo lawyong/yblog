@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "yangyong",
   desc: "lwayeryang blog",
-  title: "律途有约 | 杨律师的博客",
+  title: "律途有约 | Yang's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
