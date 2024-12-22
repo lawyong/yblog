@@ -24,17 +24,20 @@ title: "关于我"
       </div>
     </div> -->
 
+<div>
+<p></p>
+</div>
 <div class="space-y-8">
   <!-- 个人简介 -->
   <div class="prose dark:prose-invert max-w-none">
     <p class="text-lg leading-relaxed">
-      执业律师，拥有多年法律实务经验。专注于民商事法律服务，致力于为客户提供专业、高效的法律解决方案。
+      执业律师，拥有多年法律实务经验。专注于民商事法律服务，致力于为客户提供专业、高效的法律解决方案。联系方式：15570894385（微信同号）
     </p>
   </div>
 
   <!-- 专业领域 -->
   <div class="bg-gray-100 dark:bg-gray-800 rounded-lg p-6">
-    <h3 class="text-xl font-semibold mb-4">专业领域</h3>
+    <h4 class="text-xl font-semibold mt-0 mb-2">专业领域</h4>
     <div class="grid grid-cols-2 gap-4">
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
@@ -56,14 +59,14 @@ title: "关于我"
   </div>
 
   <!-- 联系方式 -->
-  <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg inline-flex items-center space-x-3">
+  <!-- <div class="bg-gray-50 dark:bg-gray-900 p-4 rounded-lg inline-flex items-center space-x-3">
     <span class="font-medium">联系方式:</span>
     <span>15570894385（微信同号）</span>
-  </div>
+  </div> -->
 
   <!-- 执业经历 -->
   <div class="mt-12">
-    <h3 class="text-2xl font-bold mb-6">执业经历</h3>
+    <h4 class="text-2xl font-bold mb-6">执业经历</h4>
     <div class="space-y-6">
       <div class="relative pl-6 border-l-2 border-primary-blue">
         <h4 class="text-xl font-semibold">某某律师事务所</h4>
