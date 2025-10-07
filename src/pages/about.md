@@ -30,11 +30,11 @@ title: "关于我"
 <div class="space-y-8">
   <!-- 个人简介 -->
   <div class="prose dark:prose-invert max-w-none">
-    <p class="text-lg leading-relaxed">
-      执业律师，拥有多年法律实务经验。专注于民商事法律服务，致力于为客户提供专业、高效的法律解决方案。
+    <p class="text-lg leading-relaxed" >
+    > Lawyang,执业律师，拥有多年法律实务经验。专注于专注Web3.0 法律合规服务，涉虚拟货币争议解决、企业及个人法律顾问服务，致力于为客户提供专业、高效的法律解决方案。
     </p>
     <p>
-    联系方式：15570894385（微信同号）
+    > 联系方式：15570894385（微信同号）
     </p>
 
   </div>
@@ -45,19 +45,19 @@ title: "关于我"
     <div class="grid grid-cols-2 gap-4">
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
-        <span>公司法律事务</span>
+        <span>Web3.0 项目合规</span>
       </div>
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
-        <span>合同争议解决</span>
+        <span>涉虚拟货币争议解决</span>
       </div>
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
-        <span>劳动争议纠纷</span>
+        <span>Web3.0项目刑事辩护</span>
       </div>
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
-        <span>刑事辩护</span>
+        <span>企业及个人法律顾问</span>
       </div>
     </div>
   </div>
@@ -73,15 +73,15 @@ title: "关于我"
     <h4 class="text-2xl font-bold mb-6">执业经历</h4>
     <div class="space-y-6">
       <div class="relative pl-6 border-l-2 border-primary-blue">
-        <h4 class="text-xl font-semibold">某某律师事务所</h4>
-        <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">2020年至今</p>
-        <p class="mt-2">专注商事法律服务，为企业提供法律咨询及争议解决方案</p>
+        <h4 class="text-xl font-semibold">湖南芙蓉律师事务所</h4>
+        <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">2023年至今</p>
+        <p class="mt-2">专注于专注Web3.0 法律合规服务，涉虚拟货币争议解决、企业及个人法律顾问服务。</p>
       </div>
-      <div class="relative pl-6 border-l-2 border-primary-blue">
+      <!-- <div class="relative pl-6 border-l-2 border-primary-blue">
         <h4 class="text-xl font-semibold">某某律师事务所</h4>
         <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">2015-2020</p>
         <p class="mt-2">主要从事公司法务工作，参与多起重大商业案件</p>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
