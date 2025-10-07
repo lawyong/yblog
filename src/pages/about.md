@@ -31,7 +31,7 @@ title: "关于我"
   <!-- 个人简介 -->
   <div class="prose dark:prose-invert max-w-none">
     <p class="text-lg leading-relaxed" >
-    > Lawyang,执业律师，拥有多年法律实务经验。专注于Web3.0 项目法律合规服务、涉虚拟货币争议解决、刑事辩护，致力于为客户提供专业、高效的法律解决方案。
+    > Lawyang,执业律师，拥有多年法律实务经验。现专注于Web3.0 项目法律合规服务、涉虚拟货币争议解决、刑事辩护，致力于为客户提供专业、高效的法律解决方案。
     </p>
     <p>
     > 联系方式：15570894385（微信同号）
@@ -75,7 +75,7 @@ title: "关于我"
       <div class="relative pl-6 border-l-2 border-primary-blue">
         <h4 class="text-xl font-semibold">湖南芙蓉律师事务所</h4>
         <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">2023年至今</p>
-        <p class="mt-2">涉及民商事领域、劳动争议、海事海商、刑事辩护、Web3.0 法律合规服务，涉虚拟货币争议解决、企业及个人法律顾问服务。</p>
+        <p class="mt-2">涉及民商事领域、婚姻家事、劳动争议、海事海商、刑事辩护、Web3.0 法律合规服务，涉虚拟货币争议解决、企业及个人法律顾问服务。</p>
       </div>
       <!-- <div class="relative pl-6 border-l-2 border-primary-blue">
         <h4 class="text-xl font-semibold">某某律师事务所</h4>
