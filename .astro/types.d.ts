@@ -175,6 +175,20 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"法律实务/05婚姻家事/婚姻与家庭领域相关法律问题汇总.md": {
+	id: "法律实务/05婚姻家事/婚姻与家庭领域相关法律问题汇总.md";
+  slug: "婚姻与家庭领域相关法律问题汇总";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"法律实务/05婚姻家事/我就是不同意离婚，有本事你去告我。.md": {
+	id: "法律实务/05婚姻家事/我就是不同意离婚，有本事你去告我。.md";
+  slug: "我就是不同意离婚，有本事你去告我。";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "法律实务/09技能工具/开庭三天前检查清单.md": {
 	id: "法律实务/09技能工具/开庭三天前检查清单.md";
   slug: "开庭三天前检查清单";
@@ -185,20 +199,6 @@ declare module 'astro:content' {
 "法律实务/09技能工具/民事诉讼立案需要准备的材料.md": {
 	id: "法律实务/09技能工具/民事诉讼立案需要准备的材料.md";
   slug: "民事诉讼立案需要准备的材料";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"法律实务/婚姻家事/婚姻与家庭领域相关法律问题汇总.md": {
-	id: "法律实务/婚姻家事/婚姻与家庭领域相关法律问题汇总.md";
-  slug: "婚姻与家庭领域相关法律问题汇总";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"法律实务/婚姻家事/我就是不同意离婚，有本事你去告我。.md": {
-	id: "法律实务/婚姻家事/我就是不同意离婚，有本事你去告我。.md";
-  slug: "我就是不同意离婚，有本事你去告我。";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
