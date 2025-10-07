@@ -161,9 +161,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"收藏/一点点碎碎念.md": {
-	id: "收藏/一点点碎碎念.md";
-  slug: "收藏/一点点碎碎念";
+"收藏/常看、常想、常念.md": {
+	id: "收藏/常看、常想、常念.md";
+  slug: "常看、常想、常念";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -171,6 +171,20 @@ declare module 'astro:content' {
 "法律实务/04劳动工伤/00劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md": {
 	id: "法律实务/04劳动工伤/00劳动争议/被单位辞退补偿标准（劳动法2024年新规定）.md";
   slug: "劳动合同解除的六种情形";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"法律实务/09技能工具/开庭三天前检查清单.md": {
+	id: "法律实务/09技能工具/开庭三天前检查清单.md";
+  slug: "开庭三天前检查清单";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"法律实务/09技能工具/民事诉讼立案需要准备的材料.md": {
+	id: "法律实务/09技能工具/民事诉讼立案需要准备的材料.md";
+  slug: "民事诉讼立案需要准备的材料";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -185,6 +199,13 @@ declare module 'astro:content' {
 "法律实务/婚姻家事/我就是不同意离婚，有本事你去告我。.md": {
 	id: "法律实务/婚姻家事/我就是不同意离婚，有本事你去告我。.md";
   slug: "我就是不同意离婚，有本事你去告我。";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"长沙/带你重新认识长沙！.md": {
+	id: "长沙/带你重新认识长沙！.md";
+  slug: "长沙";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

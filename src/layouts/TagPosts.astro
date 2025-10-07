@@ -22,7 +22,7 @@ const { currentPage, totalPages, paginatedPosts, tag, tagName } = Astro.props;
 <Layout title={`Tag: ${tagName} | ${SITE.title}`}>
   <Header activeNav="tags" />
   <Main
-    pageTitle={[`标签:`, `${tagName}`]}
+    pageTitle={[`分类:`, `${tagName}`]}
     titleTransition={tag}
     pageDesc={`所有带有该标签的文章 "${tagName}".`}
   >
