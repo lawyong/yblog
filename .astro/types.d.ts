@@ -203,6 +203,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"法律实务/14律所介绍/芙蓉律所介绍.md": {
+	id: "法律实务/14律所介绍/芙蓉律所介绍.md";
+  slug: "湖南芙蓉律师事务所";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "长沙/带你重新认识长沙！.md": {
 	id: "长沙/带你重新认识长沙！.md";
   slug: "长沙";
