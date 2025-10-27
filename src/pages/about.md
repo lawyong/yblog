@@ -53,7 +53,7 @@ title: "关于我"
       </div>
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
-        <span>Web3.0项目刑事辩护</span>
+        <span>Web3.0 项目刑事辩护</span>
       </div>
       <div class="flex items-center space-x-2">
         <span class="w-2 h-2 bg-primary-blue rounded-full"></span>
