@@ -1,12 +1,14 @@
 ---
-author: yangyong
-pubDatetime: 2025-10-29T20:00:00+08:00
-modDatetime: 2025-10-29T20:00:00+08:00
+author: lawyang
+pubDatetime: 2025-10-29T16:39:21+08:00
+modDatetime: 2025-10-29T16:39:21+08:00
 title: web3的世界
-slug: web3的世界
-featured: true
+slug: web3的世界啊
+featured: false
 draft: false
-tags: 
+tags:
+  - 虚拟货币
+  - web3
 description: 欢迎来到web3.0的世界
 ---
 ## [前言](https://rustmagazine.github.io/rust_magazine_2021/chapter_6/web3-part1.html#%E5%89%8D%E8%A8%80)
