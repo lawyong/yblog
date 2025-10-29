@@ -2,8 +2,8 @@
 author: lawyang
 pubDatetime: 2025-10-29T16:39:21+08:00
 modDatetime: 2025-10-29T16:39:21+08:00
-title: web3的世界
-slug: web3的世界啊
+title: Web3.0 概念与发展梳理
+slug: web3的世界
 featured: false
 draft: false
 tags:
